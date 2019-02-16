@@ -1,1 +1,1 @@
-# javaloggint
+# javalogging
