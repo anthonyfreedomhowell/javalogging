@@ -13,7 +13,16 @@ public class JavaLogging {
 	 System.out.println("Welcome to the Java logging program. This program logs " +
 			"how many javas you have had on a particular day.");
 
+		
+		String name;
+		String input;
+		int month;
+		int day;
+		int year;
+		int javas;
 
+	
+		
 	}
 
 
