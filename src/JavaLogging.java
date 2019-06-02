@@ -21,7 +21,18 @@ public class JavaLogging {
 		int year;
 		int javas;
 
-	
+		Scanner keyboard = new Scanner(System.in);
+
+
+		System.out.println("How many coffees have you had today?");
+		input = keyboard.nextLine();
+
+
+		javas = Integer.parseInt(input);
+
+		System.out.println("It looks like you have had: " + javas + " coffees.");
+
+
 		
 	}
 
