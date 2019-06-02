@@ -24,7 +24,7 @@ public class JavaLogging {
 		Scanner keyboard = new Scanner(System.in);
 
 
-		System.out.println("How many coffees have you had today?");
+		System.out.print("How many coffees have you had today?");
 		input = keyboard.nextLine();
 
 
