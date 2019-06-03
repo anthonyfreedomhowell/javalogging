@@ -1,5 +1,6 @@
 import java.util.Scanner;
 import java.io.*;
+import java.util.StringTokenizer;
 
 ///This program logs what the user wants to log.
 //first the program will log the user's name, 
@@ -23,10 +24,11 @@ public class JavaLogging {
 
 		Scanner keyboard = new Scanner(System.in);
 
-
 		System.out.print("How many coffees have you had today?");
 		input = keyboard.nextLine();
-
+		
+			
+		StringTokenizer st = new StringTokenizer(input.trim(), " ");
 
 		javas = Integer.parseInt(input);
 
