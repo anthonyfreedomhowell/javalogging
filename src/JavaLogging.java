@@ -34,7 +34,9 @@ public class JavaLogging {
 
 		System.out.println("It looks like you have had: " + javas + " coffees.");
 
-
+		if (javas > 2) {
+			System.out.println("You may want to cut back on the coffee!");
+		}
 		
 	}
 
